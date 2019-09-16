@@ -2409,7 +2409,7 @@ namespace LiveSplit.View
 
         private void TimerForm_Load(object sender, EventArgs e)
         {
-            CheckForUpdates();
+            // CheckForUpdates();
         }
 
         private void closeSplitsMenuItem_Click(object sender, EventArgs e)
