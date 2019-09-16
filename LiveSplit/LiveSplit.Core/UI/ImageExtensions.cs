@@ -13,7 +13,8 @@ namespace LiveSplit.UI
     {
         public static Image ScaleIcon(this Image image)
         {
-            return image.Scale(96);
+            // return image.Scale(96);
+            return image;
         }
 
         public static Image Scale(this Image image, int maxDim)
